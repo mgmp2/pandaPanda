@@ -22,12 +22,20 @@
   a:hover{
     color:green;
   }
-/*contenedor de img, text and button*/
+/*background style*/
 .panda{
   width: 1200px;
   margin: 5%;
-  padding-left: 5%;
+  padding-left: 10%;
   box-sizing: border-box;
   background: yellow;
-
+}
+/*img's style*/
+img {
+  width: 210px;
+  height: 210px;
+  margin: 15px;
+  border-style: solid;
+  border-color: #bfadad;
+  border-width: 4px
 }
