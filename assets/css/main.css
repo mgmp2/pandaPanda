@@ -1,5 +1,6 @@
   body{
     margin: 0px;
+    background: black;
   }
   /*style my list*/
   ul {
@@ -21,3 +22,12 @@
   a:hover{
     color:green;
   }
+/*contenedor de img, text and button*/
+.panda{
+  width: 1200px;
+  margin: 5%;
+  padding-left: 5%;
+  box-sizing: border-box;
+  background: yellow;
+
+}
