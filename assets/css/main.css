@@ -33,7 +33,11 @@
     /*background: yellow;*/
   }
   /*img's style*/
-  .photos > img {
+  #photos > .box-photo {
+    display: inline-block;
+    position: relative;
+  }
+  #photos > .box-photo >img {
     width: 150px;
     height: 150px;
     box-sizing: border-box;
@@ -61,4 +65,12 @@
   }
   .origen {
     margin-right: 56px;
+  }
+/*style close */
+  .box-photo > span {
+    top: 14px;
+    left: 28px;
+    font-size: 21px;
+    color:white;
+    position: absolute;
   }
