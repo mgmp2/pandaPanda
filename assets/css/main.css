@@ -52,3 +52,13 @@
     background-color: #CA3C25;
     border-style: none;
   }
+  .text > p{
+    display:inline-flex;
+    text-align: justify;
+    white-space: pre-line;
+    width: 441px;
+    color: #7A7354;
+  }
+  .origen {
+    margin-right: 56px;
+  }
