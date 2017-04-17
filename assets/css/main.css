@@ -3,39 +3,52 @@
     background: black;
   }
   /*style my list*/
-  ul {
-    background-color: #ca3c25;
-    width: 100%;
-    margin: 0px;
+  header {
+    background-color: #CA3C25;
     padding-left: 10%;
+  }
+  ul{
+    margin: 0px;
+
   }
   li{
     display: inline-block;
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
     list-style: none;
   }
   a{
     font-family: arial;
-    color: whitesmoke;
+    color: #F1B16C;
     padding: 10px;
   }
   a:hover{
     color:green;
   }
-/*background style*/
-.panda{
-  width: 1200px;
-  margin: 5%;
-  padding-left: 10%;
-  box-sizing: border-box;
-  background: yellow;
-}
-/*img's style*/
-img {
-  width: 210px;
-  height: 210px;
-  margin: 15px;
-  border-style: solid;
-  border-color: #bfadad;
-  border-width: 4px
-}
+  /*encuadre de la página*/
+  .panda{
+    width: 1200px;
+    margin: 1% 5%;
+    padding-left: 10%;
+    box-sizing: border-box;
+    /*background: yellow;*/
+  }
+  /*img's style*/
+  .photos > img {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: 15px;
+    border-style: solid;
+    border-color: #bfadad;
+    border-width: 4px;
+  }
+  .btn{
+    margin:auto 15px;
+  }
+  .btn > input{
+    width: 301px;
+    font-family: arial;
+    color: #E4B6A2;
+    background-color: #CA3C25;
+    border-style: none;
+  }
