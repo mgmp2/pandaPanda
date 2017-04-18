@@ -1,6 +1,6 @@
   body{
     margin: 0px;
-    background: black;
+    background: #1d1a05;
   }
   /*style my list*/
   header {
@@ -62,10 +62,9 @@
     white-space: pre-line;
     width: 441px;
     color: #7A7354;
-  }
-  .origen {
     margin-right: 56px;
   }
+
 /*style close */
   .box-photo > span {
     width: 20px;
@@ -77,4 +76,11 @@
     text-align: center;
     position: absolute;
     cursor: pointer;
+  }
+/*DON'T SHOW*/
+  .remove{
+    display: none;
+  }
+  .visibility {
+    visibility: hidden;
   }
