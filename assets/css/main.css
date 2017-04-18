@@ -18,7 +18,7 @@
   }
   a{
     font-family: arial;
-    color: #F1B16C;
+    color: #D9B595;
     padding: 10px;
   }
   a:hover{
@@ -30,7 +30,6 @@
     margin: 1% 5%;
     padding-left: 10%;
     box-sizing: border-box;
-    /*background: yellow;*/
   }
   /*img's style*/
   #photos > .box-photo {
@@ -56,12 +55,13 @@
     background-color: #CA3C25;
     border-style: none;
   }
+  /*only text*/
   .text > p{
     display:inline-flex;
     text-align: justify;
     white-space: pre-line;
     width: 441px;
-    color: #7A7354;
+    color: #9D9A64;
     margin-right: 56px;
   }
 
