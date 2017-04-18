@@ -19,14 +19,14 @@ function createSpan(img,box){
 // SHOW/HIDDEN TEXT
 document.getElementById("origin").addEventListener("click", function(e){
   e.preventDefault();
-  var hide = e.target.parentNode.nextElementSibling.firstElementChild;
-  hide.classList.toggle("visibility");
+  e.target.parentNode.nextElementSibling.firstElementChild.classList.toggle("visibility");
 });
 
 document.getElementById("history").addEventListener("click", function(e){
   e.preventDefault();
   e.target.parentNode.nextElementSibling.lastElementChild.classList.toggle("visibility");
 });
+
 // SHOW ALL IMG
 document.getElementById("restaurar").addEventListener("click", function (e){
   e.preventDefault();
